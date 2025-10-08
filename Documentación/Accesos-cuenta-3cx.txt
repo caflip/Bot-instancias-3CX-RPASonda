@@ -1,0 +1,15 @@
+Instancia 1: https://movigoo03.telco.convergia.io/
+Contraseña: AutomatizacionSonda2025*
+Usuario: 99993 (carlos.martinezp@sonda.com)
+
+Instancia 2: https://movigoo04.telco.convergia.io/
+Contraseña: AutomatizacionSonda2025*
+Usuario: 99994 (carlos.martinezp@sonda.com)
+
+Instancia 3:https://movigoo-sonda-olimpica.telco.convergia.io/
+Contraseña: AutomatizacionSonda2025*
+Usuario: 99991 (carlos.martinezp@sonda.com)
+
+Instancia VIP: https://movigoo02.telco.convergia.io/
+Contraseña: AutomatizacionSonda2025*
+Usuario: 99992 (carlos.martinezp@sonda.com)
