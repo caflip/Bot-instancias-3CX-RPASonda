@@ -18,10 +18,10 @@ def enviar_correo(instancias,correo_saliente, contrasena_correo, correo_destinat
             msg.add_attachment(file_data, maintype='application', subtype='octet-stream', filename=file_name)
 
         # Enviar el correo
-        # with smtplib.SMTP("smtp.office365.com", 587) as server:
-        #     server.starttls()
-        #     server.login(correo_saliente, contrasena_correo)
-        #     server.send_message(msg)
+        with smtplib.SMTP("smtp.office365.com", 587) as server:
+            server.starttls()
+            server.login(correo_saliente, contrasena_correo)
+            server.send_message(msg)
 
         print("Correo enviado exitosamente.")
         # Diligenciar la auditoría

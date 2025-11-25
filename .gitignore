@@ -1,0 +1,70 @@
+# ============================
+#   PYTHON / PYINSTALLER
+# ============================
+
+# Cache de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Entornos virtuales
+venv/
+.env/
+.venv/
+
+# PyInstaller
+# Carpetas generadas al compilar
+build/
+dist/
+*.spec
+
+# PyInstaller cache
+*.manifest
+*.spec
+*.dll
+*.egg-info/
+*.log
+
+# Directorio donde PyInstaller guarda temporales
+# (a veces aparece como __pycache__ dentro de build)
+**/PYZ-00.pyz
+**/PYZ-00.toc
+
+# ============================
+#   PLAYWRIGHT
+# ============================
+
+# Playwright browsers
+playwright/.cache/
+ms-playwright/
+
+# ============================
+#   DATOS / REPORTES
+# ============================
+
+# CSV descargados
+*.csv
+
+# Archivos de salida del bot
+Reporte_Unificado_Instancias_3CX*.xlsx
+
+# ============================
+#   EDITORES / IDE
+# ============================
+
+# VSCode
+.vscode/
+.code-workspace
+
+# PyCharm
+.idea/
+
+# ============================
+#   OTROS ARCHIVOS TEMPORALES
+# ============================
+
+*.tmp
+*.temp
+*.bak
+*.swp
+*.DS_Store

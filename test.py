@@ -22,7 +22,7 @@ load_dotenv(dotenv_path)
 # Definir rutas basadas en base_path
 ruta_reportes = RPA.definirRuta(base_path, 'Reportes')
 rutaAuditoria = RPA.definirRuta(base_path, 'Auditoria')
-ruta_salida = RPA.definirRuta(base_path, 'Reportes/Reporte_Unificado')
+ruta_salida = RPA.definirRuta(base_path, 'Reportes/Reporte_Unificado/Reporte_Unificado_Instancias_3CX-29-Oct-2025-09-16-AM.xlsx')
 
 # Validar que existan las rutas necesarias
 RPA.crear_directorio_si_no_existe(ruta_reportes)
@@ -64,5 +64,5 @@ def test_enviar_correo(ruta_salida, auditoria, fila_auditoria):
 if __name__ == "__main__":
     # test_login_3cx()
     # test_download_report(_3CX_USERNAME,_3CX_PASSWORD, auditoria, ruta_reportes, fila_auditoria)
-    test_unificar_reportes(ruta_reportes, ruta_salida, auditoria, fila_auditoria)
-    # test_enviar_correo(ruta_salida, auditoria, fila_auditoria)
+    # test_unificar_reportes(ruta_reportes, ruta_salida, auditoria, fila_auditoria)
+    test_enviar_correo(ruta_salida, auditoria, fila_auditoria)
